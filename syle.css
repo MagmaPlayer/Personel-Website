@@ -1,0 +1,240 @@
+/*voreinstung */
+* {
+margin: 3;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+/* karte */
+.card {
+    position: relative;
+    margin: 60px;
+    margin-left: 130px;
+    width: 500px;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    transition: transform 500ms ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card i {
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    width: 280px;
+    height: 50px;
+    background: #af43f1;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+.card i::before {
+    content: '';
+   position: absolute; 
+   top: 50px;
+   width: 15px;
+   height: 30px;
+   background: #8045c6;
+   border-top-left-radius: 20px;
+    border-bottom-left-radius: 20PX;
+   z-index: 2;
+}
+.card i::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    width: 15px;
+    height: 15px;
+    background: #af43f1;
+    z-index: 1;
+}
+/* Mitte */
+.middle {
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: Edwardian Script ITC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Reiter */
+.title {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.top img {
+    display: block;
+    width: 350px;
+    margin: 15px;
+}
+.top {
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.navigation {
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.navigation a {
+    color: gray;
+
+}
+.navigation a:hover {
+    color: white;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 20px;
+}
+.test1 {
+    margin: 12px;
+}
+.test2 {
+    margin: 12px;
+}
+.test3 {
+    margin: 12px;
+}
+.test4 {
+    margin: 12px;
+}
+/* Titel */
+.ggid {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    z-index: 3;
+}
+.title_card {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    z-index: 4;
+}
+.title_card {
+    margin-left: 70px;
+    margin-top: 49px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.top-logo img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 44%;
+    width: 10%;
+    transition: transform 500ms ease;
+}
+.top-logo:hover img {
+    transform: scale(1.05);
+}
+/* Inhalt der Karte */
+.text_about_me {
+    margin-top: 30%;
+    position: absolute;
+    margin-left: 7%;
+    font-size: 30px;
+    margin-right: 7%;
+}
+.picture img {
+    width: 30%;
+    font-size: 20%;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 7%;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    transition: transform 500ms ease;
+}
+.picture:hover img {
+    transform: scale(1.05);
+}
+/* Karte 2 */
+.card_2 {
+    position: relative;
+    margin: 60px;
+    margin-top: 90px;
+    margin-left: 53%;
+    width: 500px;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    transition: transform 500ms ease;
+}
+.card_2:hover {
+    transform: scale(1.05);
+}
+.card_2 i {
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    width: 280px;
+    height: 50px;
+    background: #262626;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+.card_2 i::before {
+    content: '';
+   position: absolute; 
+   top: 50px;
+   width: 15px;
+   height: 30px;
+   background: black;
+   border-top-left-radius: 20px;
+    border-bottom-left-radius: 20PX;
+   z-index: 2;
+}
+.card_2 i::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    width: 15px;
+    height: 15px;
+    background: #262626;
+    z-index: 1;
+}
+.skil {
+   position: absolute;
+   margin-left: 19%;
+    margin-top: 56px;
+   z-index: 3;
+   color: white;
+   font-weight: bold;
+}
+.skil_inhalt {
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 7%;
+    font-size: 30px;
+}
+/* Bild Skin */
+.picture_skin img {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    transition: transform 500ms ease;
+}
+.picture_skin:hover img {
+    transform: scale(1.05);
+}
+#particles-js {
+    height: 100%;
+    background: #262626;
+    width: 90%;
+    display:unset;
+}
